@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ch.xpertline.xsec</groupId>
+	<artifactId>xsec_ria</artifactId>
+	<packaging>iar</packaging>
+	<version>1.0</version>
+	<name>Xpert.Line SEC</name>
+	
+	<parent>
+        <groupId>ch.ivyteam.ivy</groupId>
+        <artifactId>parentIvyMavenPOM</artifactId>
+        <version>1.0</version>
+    </parent>
+	
+	<dependencies>
+        <dependency>
+            <groupId>ch.xpertline.resources</groupId>
+            <artifactId>SharedResources</artifactId>
+            <version>1.0</version>
+            <type>iar</type>
+        </dependency>
+    </dependencies>
+	
+</project>
